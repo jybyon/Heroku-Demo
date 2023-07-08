@@ -20,7 +20,7 @@ if we run app.py in our anaconda terminal ($ python app.py), our web app will ru
     - must specify all libraries that need to be installed in our environment when deploying. This includes package names as well as their specific versions
  
 ### with all these files committed to your github repo, it is possible to use a PaaS such as Heroku to do the rest
-    -> if we connect our github repo to Heroku and choose to deploy, it will provide a URL to our web app that is now running and available online
+    - if we connect our github repo to Heroku and choose to deploy, it will provide a URL to our web app that is now running and available online
 
     - to check the logs for our app, on command prompt run       $ heroku login
          this will make us log in to heroku on the web browse, after which we return to command prompt to now run    $ heroku logs --app our_heroku_deployed_app_name 
